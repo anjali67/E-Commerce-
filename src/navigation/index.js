@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 function RootStack() {
   return (
     <Stack.Navigator screenOptions={{headerShown:false}}>
-      {/* <Stack.Screen name="OnBoarding" component={OnBoarding} /> */}
+      <Stack.Screen name="OnBoarding" component={OnBoarding} /> 
       <Stack.Screen name="BottomTab" component={BottomTab} />
       <Stack.Screen name="ProductDetail" component={ProductDetail} />
       <Stack.Screen name="ProductList" component={ProductList} />
