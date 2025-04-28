@@ -1,0 +1,40 @@
+import { StyleSheet } from "react-native";
+export const styles = StyleSheet.create({
+    container:{
+        flexDirection:"row",
+        backgroundColor:'white',bottom:0,position:"absolute",
+        width:'100%',
+        height:'8%',
+        alignItems:"center",
+        paddingHorizontal:20
+    },
+    row:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        flex:1,
+        alignItems:"center"
+    },
+    buttonView:{
+        backgroundColor:"#000000",
+        paddingVertical:8,
+        paddingHorizontal:20,
+        borderRadius:20,
+        flexDirection:"row",
+        justifyContent:"space-between"
+    },
+    btnStyle:{
+        color:"white",
+        left:7,
+        paddingHorizontal:10
+    },
+    textStyle:{
+        color:"#A6A6A7",
+        fontSize:12,
+        fontWeight:"400"
+    },
+    price:{
+        fontSize:20,
+        fontWeight:"bold",
+      color:"black"
+    }
+})
